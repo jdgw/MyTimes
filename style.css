@@ -1,0 +1,82 @@
+/* universal all */
+
+body {
+    font-family: Georgia;
+    margin: 0;
+}
+
+
+a {
+    color: black;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* header */
+
+header{
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    border-bottom: solid 1px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    font-family: verdana;
+    font-weight: bold;
+    height: 80px;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+.logo img{ 
+    width: 70px;
+    height: 60px;
+    margin-right: 12px;
+}
+
+.logo span {
+    color: mediumaquamarine;
+
+}
+
+header nav {
+    padding-right: 40px;
+}
+
+
+/* universal stories */
+
+.stories {
+    display: flex;
+}
+
+.story {
+    display: flex;
+}
+
+.narrative {
+    margin-top: 16px;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* main container */
+
+
+.content {
+    display: flex;
+    padding-top: 116px;
+}
